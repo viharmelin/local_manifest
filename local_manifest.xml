@@ -6,10 +6,6 @@
              fetch="https://github.com/matheucomth" />
      <remote name="LineageOS" 
              fetch="https://github.com/LineageOS" />
-     <remote name="VitorSSSouzaBR" 
-             fetch="https://github.com/VitorSSSouzaBR" />
-     <remote name="a12-payton" 
-             fetch="https://github.com/a12-payton" />
       
     <!-- Device Trees -->
   <project path="device/motorola/lake" name="android_device_motorola_lake" remote="matheucomth" revision="android-9.0" />
