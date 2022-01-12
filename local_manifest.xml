@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-     <remote name="matheucomth" fetch="https://github.com/matheucomth" />
-     <remote name="LineageOS" fetch="https://github.com/LineageOS" />
-     <remote name="DhineshCool" fetch="https://github.com/DhineshCool" />
      
+     <!-- Remote -->
+     <remote name="matheucomth" 
+             fetch="https://github.com/matheucomth" />
+     <remote name="LineageOS" 
+             fetch="https://github.com/LineageOS" />
+     <remote name="VitorSSSouzaBR" 
+             fetch="https://github.com/VitorSSSouzaBR" />
+     <remote name="a12-payton" 
+             fetch="https://github.com/a12-payton" />
       
-    <!-- Tree -->
-  <project path="device/motorola/lake" name="device_motorola_lake" remote="matheucomth" revision="eleven" />
-  <project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common" remote="matheucomth" revision="eleven" />
-  <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998" remote="matheucomth" revision="eleven" />
-  <project path="vendor/motorola" name="vendor_motorola_payton" remote="matheucomth" revision="eleven" />
-  <project path="hardware/motorola" name="hardware_motorola" remote="matheucomth" revision="eleven" />
-    
-    <!-- Hals -->
-  <project path="system/qcom" name="android_system_qcom" remote="LineageOS" revision="lineage-18.1" />
-  <project path="external/bson" name="android_external_bson" remote="LineageOS" revision="lineage-18.1" />
+    <!-- Device Trees -->
+  <project path="device/motorola/lake" name="android_device_motorola_lake" remote="matheucomth" revision="android-9.0" />
+     
+   <!-- Hals -->
+   <project path="external/bson" name="android_external_bson" remote="LineageOS" revision="lineage-18.1" />
+   <project path="system/qcom" name="android_system_qcom" remote="LineageOS" revision="lineage-18.1" />
+
   
 </manifest>
